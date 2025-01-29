@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS Selectors</title>
+    <style>
+      /* Css Selectors */
+
+      /* Universal Selector */
+
+      * {
+        font-family: "Franklin Gothic Medium";
+      }
+
+      /* Element Selector */
+
+      body {
+        font-family: Verdana, Geneva, Tahoma, sans-serif; /* Heritage */
+      }
+
+      h1 {
+        color: darkgreen;
+      }
+
+      p {
+        font-family: "Courier New", Courier, monospace;
+      }
+
+      /* Class Selector */
+
+      /* Independent Classes */
+
+      .advertisement {
+        color: thistle;
+        font-style: italic;
+        margin: 10px 50px;
+      }
+
+      /* Dependent Classes */
+
+      p.advertisement {
+        color: violet;
+        font-style: italic;
+        margin: 20px 70px;
+      }
+
+      .xpto {
+        font-weight: bold;
+        background-color: crimson;
+      }
+
+      /* ID Selectors */
+
+      #introduction {
+        background-color: lightblue;
+      }
+
+      /* Descendant Selector */
+
+      section.noticias p {
+        background-color: tomato;
+      }
+
+      /* Child Selector */
+
+      section.noticias > h1 {
+        background-color: chocolate;
+        color: antiquewhite;
+      }
+
+      ul > li a {
+        text-decoration: none;
+        color: lightcoral;
+      }
+
+	  /* Specific Rules */
+
+	  /* 
+	         A            B           C
+		   (id)        (class)     (element)
+		1-   0            2           4
+		2-   1            1           2
+	  */
+
+	  main.conteudos section.noticias p a {
+		color: red;
+	  }
+	  /*   1  */
+
+	  #conteudos p a.btn {
+		color: blue;
+	  } /* 2 */
+    </style>
+  </head>
+  <body>
+    <h1><a id="top">Kitchen Garden Calendar</a></h1>
+    <p id="introduction">Here you can read our handy guide about what to do when.</p>
+    <h2 class="advertisement xpto">Spring</h2>
+    <ul>
+      <li><a href="../../_css_inicio_parte1/1_intro/mulch.html">Spring mulch vegetable beds</a></li>
+      <li><a href="../../_css_inicio_parte1/1_intro/potato.html">Plant out early potatoes</a></li>
+      <li><a href="../../_css_inicio_parte1/1_intro/tomato.html">Sow tomato seeds</a></li>
+      <li><a href="../../_css_inicio_parte1/1_intro/beet.html">Sow beet seeds</a></li>
+      <li><a href="../../_css_inicio_parte1/1_intro/zucchini.html">Sow zucchini seeds</a></li>
+      <li><a href="../../_css_inicio_parte1/1_intro/rhubarb.html">Deadhead rhubarb flowers</a></li>
+      <ol>
+        <li><a href="#">One</a></li>
+        <li><a href="#">Two</a></li>
+        <li><a href="#">Three</a></li>
+      </ol>
+    </ul>
+    <p class="note">
+      This page was written by <a href="mailto:jon@example.org">jon@example.org</a> for
+      <a href="http://www.wiley.com">Wiley</a>.
+    </p>
+    <p><a href="#top">Top of page</a></p>
+
+    <section class="noticias">
+      <h1>News Sections</h1>
+      <p class="advertisement">Paid Advertisement</p>
+      <article>
+        <h1>News Title 1</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, repudiandae maiores
+          alias architecto voluptatem aperiam asperiores non est harum amet quos, natus aspernatur
+          unde adipisci magni quibusdam, incidunt minima? Sequi.
+        </p>
+      </article>
+      <article>
+        <h1>News Title 2</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae dolor libero veniam, quas
+          eum sequi repellat adipisci impedit deserunt ab sed iure omnis amet quaerat perspiciatis
+          error! Dicta, pariatur impedit?
+        </p>
+      </article>
+    </section>
+  </body>
+</html>
