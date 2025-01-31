@@ -1,16 +1,71 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Font Size</title>
-        <style type="text/css">
+  <head>
+    <title>Font Size</title>
+    <style type="text/css">
+      /* absolute size units */
 
-        </style>
-    </head>
-    <body>
-        <h1>Briards</h1>
-        <p class="credits">by Ivy Duckett</p>
-        <p class="intro">The <a class="breed" href="http://en.wikipedia.org/wiki/Briard">briard</a>, or berger de brie, is a large breed of dog traditionally used as a herder and guardian of sheep.</p>
-        <h2>Breed History</h2>
-        <p>The briard, which is believed to have originated in France, has been bred for centuries to herd and to protect sheep. The breed was used by the French Army as sentries, messengers and to search for wounded soldiers because of its fine sense of hearing. Briards were used in the First World War almost to the point of extinction. Currently the population of briards is slowly recovering. Charlemagne, Napoleon, Thomas Jefferson and Lafayette all owned briards.</p>
-    </body>
+      /* px, pt, pc, mm, cm, in, ... */
+
+      /* relative size units */
+
+      /* em, ex, %, vw, vh, rem, ... */
+
+      body {
+        font-size: 16px; /* default size */
+      }
+
+      h1 {
+        /* font-size: 2.5em; 2.5*16px=40px */
+        font-size: 2.5rem; /* 2.5*16px=40px */
+      }
+
+      h2 {
+        font-size: 2em; /* 2em=32px */
+      }
+
+      p {
+        font-size: 1.125em; /* best size for reading */
+      }
+
+      section {
+        font-size: 0.5em; /* smaller size */
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Briards</h1>
+    <p class="credits">by Ivy Duckett</p>
+    <p class="intro">
+      The <a class="breed" href="http://en.wikipedia.org/wiki/Briard">briard</a>, or berger de brie,
+      is a large breed of dog traditionally used as a herder and guardian of sheep.
+    </p>
+    <h2>Breed History</h2>
+    <p>
+      The briard, which is believed to have originated in France, has been bred for centuries to
+      herd and to protect sheep. The breed was used by the French Army as sentries, messengers and
+      to search for wounded soldiers because of its fine sense of hearing. Briards were used in the
+      First World War almost to the point of extinction. Currently the population of briards is
+      slowly recovering. Charlemagne, Napoleon, Thomas Jefferson and Lafayette all owned briards.
+    </p>
+
+    <section>
+      <h1>titulo da section</h1>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum possimus similique amet
+        doloremque placeat quasi mollitia eius obcaecati voluptatum omnis eaque tempora vel iure ea
+        quam, nulla adipisci ad blanditiis?
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, doloremque voluptatum.
+        Eveniet quam iste, tenetur sunt ullam, omnis rem nemo vero accusantium, nulla quasi
+        provident beatae. Asperiores possimus minima dolorem.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque nesciunt fugiat nulla
+        similique, quas dignissimos quidem dolorem nemo placeat molestiae, reiciendis animi neque
+        cupiditate dolores aperiam sunt voluptatem debitis enim?
+      </p>
+    </section>
+  </body>
 </html>
