@@ -1,17 +1,54 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Width Height</title>
-        <style type="text/css">
-            body {
-                font-family: Arial, Verdana, sans-serif;
-                color: #111111;}
+  <head>
+    <title>Width Height</title>
+    <style type="text/css">
+      body {
+        font-family: Arial, Verdana, sans-serif;
+        color: #111111;
+        /* font-size: 24px; */
+      }
 
-        </style>
-    </head>
-    <body>
-        <div>
-            <p>The Moog company pioneered the commercial manufacture of modular voltage-controlled analog synthesizer systems in the early 1950s.</p>
-        </div>
-    </body>
+      div {
+        background-color: aquamarine;
+
+        /* width: 500px; */
+        /* width: 20em; */
+        /* height: 300px; */
+        width: auto;
+
+        min-width: 700px;
+        max-width: 1200px;
+
+        border: 2px dotted #000000;
+        padding: 1em;
+        text-align: justify;
+      }
+
+      #test {
+        background-color: lightcoral;
+        width: 80%;
+        border: 2px solid #000000;
+        padding: 1em;
+        text-align: justify;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <p>
+        The Moog company pioneered the commercial manufacture of modular voltage-controlled analog
+        synthesizer systems in the early 1950s.
+      </p>
+      <p id="test">
+        The Moog synthesizer gained wider attention in the music industry after it was demonstrated
+        at the Monterey International Pop Festival in 1967.
+      </p>
+    </div>
+    <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium commodi possimus libero
+      placeat quam. Fuga vel maxime recusandae non pariatur accusantium iste nesciunt. Iusto,
+      aliquam eveniet! Sit perspiciatis necessitatibus quis!
+    </p>
+  </body>
 </html>

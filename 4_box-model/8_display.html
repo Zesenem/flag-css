@@ -1,23 +1,52 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Display</title>
-        <style type="text/css">
-            body {
-                font-family: Arial, Verdana, sans-serif;
-                color: #111111;}
-            
-            
+  <head>
+    <title>Display</title>
+    <style type="text/css">
+      body {
+        font-family: Arial, Verdana, sans-serif;
+        color: #111111;
+      }
 
-        </style>
-    </head>
-    <body>
-        <ul>
-            <li>Home</li>
-            <li>Products</li>
-            <li class="coming-soon">Services</li>
-            <li>About</li>
-            <li>Contact</li>
-        </ul>
-    </body>
+      ul {
+        width: 600px;
+        background-color: aquamarine;
+        margin: 10px auto;
+      }
+
+      li {
+        display: inline-block;
+
+        margin: 15px 15px;
+        padding: 5px 10px;
+
+        background-color: #f8f9fa;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+
+      a {
+        text-decoration: none;
+        color: #111111;
+      }
+
+      li:hover {
+        color: #ffffff;
+        background-color: #007bff;
+      }
+
+      .coming-soon {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Products</a></li>
+      <li class="coming-soon"><a href="#">Services</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </body>
 </html>
