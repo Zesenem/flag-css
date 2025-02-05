@@ -1,75 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modular Synth Shop</title>
-    <!-- <link rel="stylesheet" href="css/css_reset.css"> -->
-    <link rel="stylesheet" href="css/style.css">
-    <style>
-        main {
-            border: 1px double black;
-            background-color: antiquewhite;
-            margin: auto auto;
-            border-radius: 5px;
-            width: 90%;
-            height: 90%;
-        }
-
-        li {
-            display: inline;
-            margin: 10px;
-        }
-
-        ul {
-            border-top: 3px solid black;
-            border-bottom: 1px solid black;
-            width: 600px;
-            margin: auto;
-            padding: 10px;
-        }
-
-        section {
-            justify-content: space-around;
-            margin: 20px;
-        }
-
-        h1 {
-            text-align: center;
-        }
-
-        footer {
-            margin: 10px 10 10px;
-            border-top: 2px solid black;
-            
-        }
-    </style>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Analog Specialist</title>
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
     <main>
-        <header>
-            <h1>Modular Synth Shop</h1>
-            <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="content/for_sale.html">For Sale</a></li>
-                    <li><a href="content/repairs.html">Repairs</a></li>
-                    <li><a href="content/about_us.html">About Us</a></li>
-                    <li><a href="content/contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
-        <section>
-            <img src="images/Mod_Synth_Thomman.jpg" width="300" alt="Synth Thomman">
-            <img src="images/Mod_Synth_Wall.webp" width="300" height="200" alt="">
-            <img src="images/synth_wiki.jpg" alt="">
-
-            <p>Example text for paragraph</p>
-
-        </section>
-        <footer>
-            <p>&copy;,2025 Modular Synth Shop</p>
-        </footer>
-</main>
-</body>
+      <header>
+        <h1>
+          <span>The</span>
+          <span class="analog">Analog</span>
+          <span>Specialist</span>
+        </h1>
+      </header>
+      <nav>
+        <ul>
+          <li><a href="#" class="active">Home</a></li><li><a href="content/for_sale.html">For Sale</a></li><li><a href="content/repairs.html">Repairs</a></li><li><a href="content/about_us.html">About Us</a></li><li><a href="content/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <section class="content">
+        <figure>
+          <img src="images/clavinet.jpg" alt="clavinet" /><img
+            src="images/rhodes.jpg"
+            alt="rhodes"
+            class="grayscale"
+          /><img src="images/wurlitzer.jpg" alt="wurlitzer" class="grayscale" />
+        </figure>
+        <article>
+          <p>
+            We specialize in the sale and repair of classic keyboard, in particular the <a href="https://www.fender.com/en-PT/">"Fender
+            Rhodes"</a>, "Wurlitzer EP200", and Hohner Clavinet.
+          </p>
+        </article>
+      </section>
+      <footer>
+        <p>&copy;2025, Antonio Menezes</p>
+      </footer>
+    </main>
+  </body>
 </html>
