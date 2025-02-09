@@ -5,8 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   border: none;
-  font-family: Arial, Helvetica, sans-serif;
-}
+  font-family: Arial, Helvetica, sans-serif;}
 
 body {
   background-color: lightgray;
@@ -16,7 +15,7 @@ body {
 
 main {
   width: 640px;
-  margin: 20px auto;
+  margin: 15px auto;
   padding: 2em;
   border: 1px solid white;
   background-color: white;
@@ -39,20 +38,16 @@ header section {
   top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
-  text-align: center;
+  text-align: center; 
   width: 55%;
   color: black;
-  text-shadow: 1px 1px white;
+  text-shadow: 1px 1px 1px white;
 }
 
 header h1 {
   font-size: 2em;
   color: rgb(255, 126, 32);
   text-shadow: 0px 0px 8px black;
-}
-
-header p {
-  margin: 15px auto;
 }
 
 header button {
@@ -70,7 +65,6 @@ section.follow {
   border-top: 2px solid darkslategray;
   text-align: center;
   color: darkslategray;
-  padding-top: 20px;
 }
 
 section.follow h1 {
@@ -78,6 +72,7 @@ section.follow h1 {
   font-weight: 600;
   letter-spacing: 3px;
   padding-bottom: 10px;
+  padding-top: 30px;
 }
 
 section img {
@@ -93,11 +88,12 @@ section img {
 
 section p {
   font-size: 0.9em;
+  padding: 15px 0px;
 }
 
 section p.spacing {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 /* Footer */
@@ -106,6 +102,6 @@ footer {
   color: white;
   text-align: center;
   background-color: rgb(255, 126, 32);
-  padding: 30px;
+  padding: 40px;
   font-size: 0.9em;
 }
