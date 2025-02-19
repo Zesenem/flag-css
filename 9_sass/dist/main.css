@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+
+body {
+  background-color: #999;
+  color: #333;
+  line-height: 1.5;
+  font-family: "Courier new", Courier, monospace;
+  font-size: 18px;
+}
+
+header {
+  background-color: #333;
+  color: #999;
+  padding: 1rem;
+}
+header h1 {
+  text-align: center;
+}
+
+.section {
+  padding: 3rem;
+}
+.section-a {
+  background-color: steelblue;
+  color: white;
+}
+.section-b {
+  background-color: skyblue;
+  color: white;
+}
+
+a {
+  color: #555;
+}
+a:hover {
+  color: coral;
+}
+
+/*# sourceMappingURL=main.css.map */
